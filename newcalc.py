@@ -309,6 +309,7 @@ class Application(Frame):
         self.yinput.insert(END, disp)
         import math
 
+# Statistics
 def permutations(n,r):
     answer = (math.factorial(n))/((math.factorial(r))(math.factorial(n - r)))
     return answer
